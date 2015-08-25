@@ -6,8 +6,8 @@ eigen3    = ENV['EIGEN3_INCLUDE_PATH']
 langflags = "-std=c++11"
 wflags    = "-Wall"
 archflags = "-march=native"
-incflags  = "-I. -isystem #{boost} -isystem #{eigen3}"
-ppflags   = "-DNDEBUG"
+incflags  = "-I. -isystem #{boost} -isystem #{eigen3} -isystem include/blaze-2.4"
+ppflags   = "-DNDEBUG -DEIGEN_DONT_VECTORIZE"
 optflags  = "-O3"
 cxxflags  = "#{langflags} #{wflags} #{archflags} #{incflags} #{ppflags} #{optflags}"
 tests     = FileList["src/*"].map{|f| f.sub("src", "out").ext("run")}

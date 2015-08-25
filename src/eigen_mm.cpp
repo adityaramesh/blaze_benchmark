@@ -9,6 +9,7 @@
 #include <cstddef>
 #include <iostream>
 #include <Eigen/Dense>
+#include <blaze/Math.h>
 
 static void eigen_mm()
 {
@@ -19,6 +20,17 @@ static void eigen_mm()
 	matrix b(1024, 1024);
 	matrix c(1024, 1024);
 	c.noalias() = a * b;
+}
+
+static void blaze_mm()
+{
+	using namespace blaze;
+	using matrix = DynamicMatrix<float>;
+
+	matrix a(1024, 1024);
+	matrix b(1024, 1024);
+	matrix c(1024, 1024);
+	c = a * b;
 }
 
 template <class F>
@@ -40,4 +52,8 @@ static void profile(const char* name, const F f, const unsigned n = 5)
 		" using " << n << " measurements: " << s << "." << std::endl;
 }
 
-int main() { profile("eigen_mm", eigen_mm); }
+int main()
+{
+	profile("eigen_mm", eigen_mm);
+	profile("blaze_mm", eigen_mm);
+}

@@ -306,12 +306,9 @@ static void mm_super_1()
 	** 3. Unrolling of the innermost loop.
 	** 4. Reordering to exploit instruction-level parallelism.
 	*/
-	//auto a = darray{new value_type[n * n]};
-	//auto b = darray{new value_type[n * n]};
-	//auto c = darray{new value_type[n * n]};
-	auto a = new value_type[n * n];
-	auto b = new value_type[n * n];
-	auto c = new value_type[n * n];
+	auto a = darray{new value_type[n * n]};
+	auto b = darray{new value_type[n * n]};
+	auto c = darray{new value_type[n * n]};
 
 	static constexpr auto m1 = 1u;
 	static constexpr auto m2 = 4u;
@@ -396,10 +393,6 @@ static void mm_super_1()
 			//              + a[n * i + (k + 7)] * b[n * (k + 7) + j + 7];
 		//}}}
 	}}}
-
-	delete[] a;
-	delete[] b;
-	delete[] c;
 }
 
 static void mm_super_2()
