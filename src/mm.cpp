@@ -306,9 +306,12 @@ static void mm_super_1()
 	** 3. Unrolling of the innermost loop.
 	** 4. Reordering to exploit instruction-level parallelism.
 	*/
-	auto a = darray{new value_type[n * n]};
-	auto b = darray{new value_type[n * n]};
-	auto c = darray{new value_type[n * n]};
+	//auto a = darray{new value_type[n * n]};
+	//auto b = darray{new value_type[n * n]};
+	//auto c = darray{new value_type[n * n]};
+	auto a = new value_type[n * n];
+	auto b = new value_type[n * n];
+	auto c = new value_type[n * n];
 
 	static constexpr auto m1 = 1u;
 	static constexpr auto m2 = 4u;
@@ -355,10 +358,48 @@ static void mm_super_1()
 			              + a[n * i + (k + 5)] * b[n * (k + 5) + j + 3]
 			              + a[n * i + (k + 6)] * b[n * (k + 6) + j + 3]
 			              + a[n * i + (k + 7)] * b[n * (k + 7) + j + 3];
-		//}
-		//}
-		//}
+
+			//c[n * i + (j + 4)] += a[n * i + k] * b[n * k + j + 4]
+			//              + a[n * i + (k + 1)] * b[n * (k + 1) + j + 4]
+			//              + a[n * i + (k + 2)] * b[n * (k + 2) + j + 4]
+			//              + a[n * i + (k + 3)] * b[n * (k + 3) + j + 4]
+			//              + a[n * i + (k + 4)] * b[n * (k + 4) + j + 4]
+			//              + a[n * i + (k + 5)] * b[n * (k + 5) + j + 4]
+			//              + a[n * i + (k + 6)] * b[n * (k + 6) + j + 4]
+			//              + a[n * i + (k + 7)] * b[n * (k + 7) + j + 4];
+
+			//c[n * i + (j + 5)] += a[n * i + k] * b[n * k + j + 5]
+			//              + a[n * i + (k + 1)] * b[n * (k + 1) + j + 5]
+			//              + a[n * i + (k + 2)] * b[n * (k + 2) + j + 5]
+			//              + a[n * i + (k + 3)] * b[n * (k + 3) + j + 5]
+			//              + a[n * i + (k + 4)] * b[n * (k + 4) + j + 5]
+			//              + a[n * i + (k + 5)] * b[n * (k + 5) + j + 5]
+			//              + a[n * i + (k + 6)] * b[n * (k + 6) + j + 5]
+			//              + a[n * i + (k + 7)] * b[n * (k + 7) + j + 5];
+
+			//c[n * i + (j + 6)] += a[n * i + k] * b[n * k + j + 6]
+			//              + a[n * i + (k + 1)] * b[n * (k + 1) + j + 6]
+			//              + a[n * i + (k + 2)] * b[n * (k + 2) + j + 6]
+			//              + a[n * i + (k + 3)] * b[n * (k + 3) + j + 6]
+			//              + a[n * i + (k + 4)] * b[n * (k + 4) + j + 6]
+			//              + a[n * i + (k + 5)] * b[n * (k + 5) + j + 6]
+			//              + a[n * i + (k + 6)] * b[n * (k + 6) + j + 6]
+			//              + a[n * i + (k + 7)] * b[n * (k + 7) + j + 6];
+
+			//c[n * i + (j + 7)] += a[n * i + k] * b[n * k + j + 7]
+			//              + a[n * i + (k + 1)] * b[n * (k + 1) + j + 7]
+			//              + a[n * i + (k + 2)] * b[n * (k + 2) + j + 7]
+			//              + a[n * i + (k + 3)] * b[n * (k + 3) + j + 7]
+			//              + a[n * i + (k + 4)] * b[n * (k + 4) + j + 7]
+			//              + a[n * i + (k + 5)] * b[n * (k + 5) + j + 7]
+			//              + a[n * i + (k + 6)] * b[n * (k + 6) + j + 7]
+			//              + a[n * i + (k + 7)] * b[n * (k + 7) + j + 7];
+		//}}}
 	}}}
+
+	delete[] a;
+	delete[] b;
+	delete[] c;
 }
 
 static void mm_super_2()
@@ -408,7 +449,7 @@ static void profile(const char* name, const F f, const unsigned n = 5)
 int main()
 {
 	// Tests index order.
-	//profile("mm_ijk", mm_ijk, 1);	
+	//profile("mm_ijk", mm_ijk, 1);
 	//profile("mm_ikj", mm_ikj, 1);
 	//profile("mm_jik", mm_jik, 1);
 	//profile("mm_jki", mm_jki, 1);
