@@ -1,0 +1,152 @@
+\form#0:$ N \times N $
+\form#1:$\left(\begin{array}{*{1}{c}} 1 \\ 2 \\ 3 \\ \end{array}\right)$
+\form#2:$\left(\begin{array}{*{3}{c}} 1 & 2 & 3 \\ \end{array}\right).$
+\form#3:$ b = \left(\begin{array}{*{1}{c}} 1 \\ 2 \\ 3 \\ \end{array}\right)$
+\form#4:$ M \cdot N $
+\form#5:$ M1 = \left(\begin{array}{*{2}{c}} 1 & 2 \\ 3 & 4 \\ \end{array}\right),\quad M2 = \left(\begin{array}{*{2}{c}} 1 & 3 \\ 2 & 4 \\ \end{array}\right)$
+\form#6:$ M1 = \left(\begin{array}{*{2}{c}} 3.1 & 6.4 \\ -0.9 & -1.2 \\ 4.8 & 0.6 \\ \end{array}\right)$
+\form#7:$\left(\begin{array}{*{3}{c}} 2 & 0 & 1 \\ 0 & 3 & 2 \\ \end{array}\right) \times \left(\begin{array}{*{2}{c}} 4 & 0 \\ 1 & 0 \\ 0 & 3 \\ \end{array}\right) = \left(\begin{array}{*{2}{c}} 8 & 3 \\ 3 & 6 \\ \end{array}\right)$
+\form#8:$ B = \left(\begin{array}{*{3}{c}} 1 & 2 & 3 \\ 4 & 5 & 6 \\ \end{array}\right)$
+\form#9:$ A = A^T $
+\form#10:$ a_{ij} == a_{ji} $
+\form#11:$ a_{ij} $
+\form#12:$ a_{ji} $
+\form#13:\[\left(\begin{array}{*{5}{c}} l_{0,0} & 0 & 0 & \cdots & 0 \\ l_{1,0} & l_{1,1} & 0 & \cdots & 0 \\ l_{2,0} & l_{2,1} & l_{2,2} & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ l_{N,0} & l_{N,1} & l_{N,2} & \cdots & l_{N,N} \\ \end{array}\right).\]
+\form#14:\[\left(\begin{array}{*{5}{c}} 1 & 0 & 0 & \cdots & 0 \\ l_{1,0} & 1 & 0 & \cdots & 0 \\ l_{2,0} & l_{2,1} & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ l_{N,0} & l_{N,1} & l_{N,2} & \cdots & 1 \\ \end{array}\right).\]
+\form#15:\[\left(\begin{array}{*{5}{c}} 0 & 0 & 0 & \cdots & 0 \\ l_{1,0} & 0 & 0 & \cdots & 0 \\ l_{2,0} & l_{2,1} & 0 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ l_{N,0} & l_{N,1} & l_{N,2} & \cdots & 0 \\ \end{array}\right).\]
+\form#16:\[\left(\begin{array}{*{5}{c}} u_{0,0} & u_{0,1} & u_{0,2} & \cdots & u_{0,N} \\ 0 & u_{1,1} & u_{1,2} & \cdots & u_{1,N} \\ 0 & 0 & u_{2,2} & \cdots & u_{2,N} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & u_{N,N} \\ \end{array}\right).\]
+\form#17:\[\left(\begin{array}{*{5}{c}} 1 & u_{0,1} & u_{0,2} & \cdots & u_{0,N} \\ 0 & 1 & u_{1,2} & \cdots & u_{1,N} \\ 0 & 0 & 1 & \cdots & u_{2,N} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1 \\ \end{array}\right).\]
+\form#18:\[\left(\begin{array}{*{5}{c}} 0 & u_{0,1} & u_{0,2} & \cdots & u_{0,N} \\ 0 & 0 & u_{1,2} & \cdots & u_{1,N} \\ 0 & 0 & 0 & \cdots & u_{2,N} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 0 \\ \end{array}\right).\]
+\form#19:\[\left(\begin{array}{*{5}{c}} l_{0,0} & 0 & 0 & \cdots & 0 \\ 0 & l_{1,1} & 0 & \cdots & 0 \\ 0 & 0 & l_{2,2} & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & l_{N,N} \\ \end{array}\right).\]
+\form#20:\[\left(\begin{array}{*{5}{c}} 0 & 1 & 2 & \cdots & N-1 \\ \end{array}\right),\]
+\form#21:$ a $
+\form#22:$ b $
+\form#23:\[ \left(\begin{array}{*{1}{c}} c_0 \\ c_1 \\ c_2 \\ \end{array}\right) = \left(\begin{array}{*{1}{c}} a_1 b_2 - a_2 b_1 \\ a_2 b_0 - a_0 b_2 \\ a_0 b_1 - a_1 b_0 \\ \end{array}\right). \]
+\form#24:$ \times $
+\form#25:$ [1..\infty) $
+\form#26:$ 1e-9 $
+\form#27:$ 1e-5 $
+\form#28:$ 2000 \times 2000 $
+\form#29:$ 250 \times 250 $
+\form#30:$ 100 \times 100 $
+\form#31:$ O(N^3) $
+\form#32:$ O(N^2) $
+\form#33:$ 3 \times 3 $
+\form#34:$ e $
+\form#35:$ \log_2 e $
+\form#36:$ \log_{10} e $
+\form#37:$ \ln 2 $
+\form#38:$ \ln 10 $
+\form#39:$ \pi $
+\form#40:$ \sqrt{2} $
+\form#41:$ \sqrt{3} $
+\form#42:$ 0 \times 0 $
+\form#43:$ 1 \times 1 $
+\form#44:\[\left(\begin{array}{*{5}{c}} aa & 0 & 0 & \cdots & 0 \\ 0 & bb & 0 & \cdots & 0 \\ 0 & 0 & cc & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & 0 & xx \\ \end{array}\right)\]
+\form#45:\[\left(\begin{array}{*{5}{c}} 1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & 0 & 1 \\ \end{array}\right)\]
+\form#46:$|\vec{a}|$
+\form#47:$|\vec{a}|^2$
+\form#48:$ M \times N $
+\form#49:\[\left(\begin{array}{*{3}{c}} 1 & 2 & 3 \\ 4 & 5 & 6 \\ \end{array}\right)\]
+\form#50:\[\left(\begin{array}{*{6}{c}} 1 & 2 & 3 & 4 & 5 & 6. \\ \end{array}\right)\]
+\form#51:\[\left(\begin{array}{*{6}{c}} 1 & 4 & 2 & 5 & 3 & 6. \\ \end{array}\right)\]
+\form#52:$ m \times n $
+\form#53:$[0..M-1]$
+\form#54:$[0..N-1]$
+\form#55:$ A+=B $
+\form#56:$ A-=B $
+\form#57:$ A*=B $
+\form#58:$ A*=s $
+\form#59:$ A/=s $
+\form#60:$ 2 \times 4 $
+\form#61:$ 4 \times 2 $
+\form#62:\[ \left(\begin{array}{*{4}{c}} 1 & 2 & 3 & 4 \\ 5 & 6 & 7 & 8 \\ \end{array}\right) \Longrightarrow \left(\begin{array}{*{2}{c}} 1 & 2 \\ 5 & 6 \\ x & x \\ x & x \\ \end{array}\right) \]
+\form#63:$ A=B*s $
+\form#64:\[\left(\begin{array}{*{5}{c}} 0 & 1 & 2 & \cdots & N-1 \\ N & N+1 & N+2 & \cdots & 2 \cdot N-1 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ M \cdot N-N & M \cdot N-N+1 & M \cdot N-N+2 & \cdots & M \cdot N-1 \\ \end{array}\right)\]
+\form#65:\[\left(\begin{array}{*{5}{c}} 0 & 1 & 2 & \cdots & N-1 \\ \end{array}\right)\]
+\form#66:$ \vec{a}+=\vec{b} $
+\form#67:$ \vec{a}-=\vec{b} $
+\form#68:$ \vec{a}*=\vec{b} $
+\form#69:$ \vec{a}*=s $
+\form#70:$ \vec{a}/=s $
+\form#71:\[ \left(\begin{array}{*{2}{c}} 1 & 2 \\ \end{array}\right) \Longrightarrow \left(\begin{array}{*{4}{c}} 1 & 2 & x & x \\ \end{array}\right) \]
+\form#72:$ \vec{a}=\vec{b}*s $
+\form#73:\[\left(\begin{array}{*{4}{c}} 0 & 1 & \cdots & N-1 \\ \end{array}\right)\]
+\form#74:$ 1 \times 2 $
+\form#75:$ 2 \times 1 $
+\form#76:\[\left(\begin{array}{*{2}{c}} 1 & 2 \\ \end{array}\right)\]
+\form#77:$ 1 \times 3 $
+\form#78:$ 3 \times 1 $
+\form#79:\[\left(\begin{array}{*{3}{c}} 1 & 2 & 3 \\ \end{array}\right)\]
+\form#80:$ 1 \times 4 $
+\form#81:$ 2 \times 2 $
+\form#82:$ 4 \times 1 $
+\form#83:\[\left(\begin{array}{*{2}{c}} 1 & 2 \\ 3 & 4 \\ \end{array}\right)\]
+\form#84:$ 1 \times 5 $
+\form#85:$ 5 \times 1 $
+\form#86:\[\left(\begin{array}{*{5}{c}} 1 & 2 & 3 & 4 & 5 \\ \end{array}\right)\]
+\form#87:$ 1 \times 6 $
+\form#88:$ 2 \times 3 $
+\form#89:$ 3 \times 2 $
+\form#90:$ 6 \times 1 $
+\form#91:$ 1 \times 7 $
+\form#92:$ 7 \times 1 $
+\form#93:\[\left(\begin{array}{*{7}{c}} 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \end{array}\right)\]
+\form#94:$ 1 \times 8 $
+\form#95:$ 8 \times 1 $
+\form#96:\[\left(\begin{array}{*{4}{c}} 1 & 2 & 3 & 4 \\ 5 & 6 & 7 & 8 \\ \end{array}\right)\]
+\form#97:$ 1 \times 9 $
+\form#98:$ 9 \times 1 $
+\form#99:\[\left(\begin{array}{*{3}{c}} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \\ \end{array}\right)\]
+\form#100:$ 1 \times 10 $
+\form#101:$ 2 \times 5 $
+\form#102:$ 5 \times 2 $
+\form#103:$ 10 \times 1 $
+\form#104:\[\left(\begin{array}{*{5}{c}} 1 & 2 & 3 & 4 & 5 \\ 6 & 7 & 8 & 8 & 10 \\ \end{array}\right)\]
+\form#105:$ \vec{a}=\vec{b}^\perp $
+\form#106:$ \vec{a}^\perp \cdot b $
+\form#107:$ \vec{a} $
+\form#108:$ \vec{b} $
+\form#109:$ \vec{a} \cdot \vec{b} = 0 $
+\form#110:$ A=B+C $
+\form#111:$ A=B*C $
+\form#112:$ A=B-C $
+\form#113:$ \vec{y}=A*\vec{x} $
+\form#114:$ \vec{y}=(A*B)*\vec{x} $
+\form#115:$ \vec{x}=(A*B)*\vec{x} $
+\form#116:$ \vec{y}=A*(B*\vec{x}) $
+\form#117:$ A=B/s $
+\form#118:$ A = -B $
+\form#119:$ A=s*B $
+\form#120:$ \vec{a}=\vec{b}+\vec{c} $
+\form#121:$ \vec{a}=\vec{b} \times \vec{c} $
+\form#122:$[0..2]$
+\form#123:$ \vec{a}=\vec{b}*\vec{c} $
+\form#124:$ \vec{a}=\vec{b}-\vec{c} $
+\form#125:$ \vec{a}=\vec{b}/s $
+\form#126:$ \vec{a} = -\vec{b} $
+\form#127:$ \vec{a}=s*\vec{b} $
+\form#128:$|\vec{a}|=1$
+\form#129:$ A=\vec{b}*\vec{c}^T $
+\form#130:$ \vec{a}=B*\vec{c} $
+\form#131:$[7..size]$
+\form#132:$ \vec{y}^T=\vec{x}^T*A $
+\form#133:$ \vec{y}^T=\vec{x}^T*(A*B) $
+\form#134:$ \vec{y}^T=(\vec{x}^T*A)*B $
+\form#135:$ s=\vec{a}*\vec{b} $
+\form#136:$ \vec{y}^T+=\vec{x}^T*A $
+\form#137:$ \vec{y}^T-=\vec{x}^T*A $
+\form#138:$ \vec{y}^T*=\vec{x}^T*A $
+\form#139:$ \frac{1}{a} $
+\form#140:$[1..\infty)$
+\form#141:$[7..M \cdot N]$
+\form#142:\[ \left(\begin{array}{*{4}{c}} 1 & 0 & 3 & 0 \\ \end{array}\right) \]
+\form#143:\[ \left(\begin{array}{*{4}{c}} -1 & 0 & -3 & 0 \\ \end{array}\right) \]
+\form#144:$ s=(\vec{a},\vec{b}) $
+\form#145:$ [first,last) $
+\form#146:$[0..size-1]$
+\form#147:$ [0..max] $
+\form#148:$ [min..max] $
+\form#149:$ [0..1) $
+\form#150:$ B^x = N $
+\form#151:$ [0..\infty) $

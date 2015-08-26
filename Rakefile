@@ -3,10 +3,11 @@ require 'rake/clean'
 cxx       = ENV['CXX']
 boost     = ENV['BOOST_INCLUDE_PATH']
 eigen3    = ENV['EIGEN3_INCLUDE_PATH']
+blaze     = "include/blaze-2.4"
 langflags = "-std=c++11"
 wflags    = "-Wall"
 archflags = "-march=native"
-incflags  = "-I. -isystem #{boost} -isystem #{eigen3} -isystem include/blaze-2.4"
+incflags  = "-I. -isystem #{boost} -isystem #{eigen3} -isystem #{blaze} -I include"
 ppflags   = "-DNDEBUG -DEIGEN_DONT_VECTORIZE"
 optflags  = "-O3"
 cxxflags  = "#{langflags} #{wflags} #{archflags} #{incflags} #{ppflags} #{optflags}"

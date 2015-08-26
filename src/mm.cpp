@@ -3,18 +3,9 @@
 ** Author:	Aditya Ramesh
 ** Date:	05/05/2013
 ** Contact:	_@adityaramesh.com
-**
-** Observations:
-** - Creating temporaries results in poorer machine code.
-** - <i, k, j> is the fastest iteration order.
-** - Unrolling by 4 is the fastest.
 */
 
-#include <algorithm>
-#include <chrono>
-#include <cstddef>
-#include <iostream>
-#include <memory>
+#include <common.hpp>
 	
 using value_type = float;
 using darray     = std::unique_ptr<value_type[]>;
@@ -418,25 +409,6 @@ static void mm_super_2()
 			c[n * i2 + j2] += a[n * i2 + k2] * b[n * k2 + j2];
 		}}}
 	}}}
-}
-
-template <class F>
-static void profile(const char* name, const F f, const unsigned n = 5)
-{
-	using namespace std::chrono;
-	using value_type = double;
-	value_type s{0};
-
-	for (auto i = 0u; i != n; ++i) {
-		auto t1 = high_resolution_clock::now();
-		f();
-		auto t2 = high_resolution_clock::now();
-		s += duration_cast<duration<value_type>>(t2 - t1).count();
-	}
-
-	s /= n;
-	std::cout << "Average execution time for kernel " << name <<
-		" using " << n << " measurements: " << s << "." << std::endl;
 }
 
 int main()

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['defaultstorageorder',['defaultStorageOrder',['../d1/d44/group__config.html#gab4c5b7330d511e76f9c20327f3279483',1,'blaze']]],
+  ['defaulttransposeflag',['defaultTransposeFlag',['../d1/d44/group__config.html#gafcc21778299e5c18d8e93e0d9254300e',1,'blaze']]],
+  ['deleter_5f',['deleter_',['../d3/dcf/classblaze_1_1UniqueArray.html#a1e2c279cb6e64e36d4f06bedf3d4fef2',1,'blaze::UniqueArray::deleter_()'],['../d2/d75/classblaze_1_1UniquePtr.html#abb2c13f41c4551af58c351868f3152d1',1,'blaze::UniquePtr::deleter_()']]],
+  ['dependency1_5f',['dependency1_',['../d4/d8d/classblaze_1_1Singleton.html#acfb81396582be4f65667a19ce484f550',1,'blaze::Singleton']]],
+  ['dependency2_5f',['dependency2_',['../d4/d8d/classblaze_1_1Singleton.html#a105d6f6704809c4301a35ee9b8f0f59b',1,'blaze::Singleton']]],
+  ['dependency3_5f',['dependency3_',['../d4/d8d/classblaze_1_1Singleton.html#aab6ce8e4266782b3668ad9037f511faf',1,'blaze::Singleton']]],
+  ['dependency4_5f',['dependency4_',['../d4/d8d/classblaze_1_1Singleton.html#a2eebc41d208603ad5c9006256dee51ce',1,'blaze::Singleton']]],
+  ['dependency5_5f',['dependency5_',['../d4/d8d/classblaze_1_1Singleton.html#a85f2bc9fcaa6fe09b1a5b8f189a01ae9',1,'blaze::Singleton']]],
+  ['dependency6_5f',['dependency6_',['../d4/d8d/classblaze_1_1Singleton.html#a9fc91efd0a738870d0f7e05378de0adf',1,'blaze::Singleton']]],
+  ['dependency7_5f',['dependency7_',['../d4/d8d/classblaze_1_1Singleton.html#ac082fc250820e094a7043e38e985bdf7',1,'blaze::Singleton']]],
+  ['dependency8_5f',['dependency8_',['../d4/d8d/classblaze_1_1Singleton.html#aed8887ded73ce9400fc2567ac2e8845e',1,'blaze::Singleton']]],
+  ['dependency_5f',['dependency_',['../d4/d31/classblaze_1_1Dependency.html#af3cff565610790eb981d5577f0402699',1,'blaze::Dependency']]],
+  ['dm_5f',['dm_',['../d5/d9e/classblaze_1_1DMatAbsExpr.html#a9179e7a58712558cf0ad6845e375f13c',1,'blaze::DMatAbsExpr::dm_()'],['../db/d9a/classblaze_1_1DMatEvalExpr.html#aa4b5300b368f8f0e08d8e36f8d062fe4',1,'blaze::DMatEvalExpr::dm_()'],['../d9/dec/classblaze_1_1DMatSerialExpr.html#a9025b6ae55c11513c6aadf0466af5e5c',1,'blaze::DMatSerialExpr::dm_()'],['../d1/d86/classblaze_1_1DMatTransExpr.html#a427727e0d6f2ae43d796d7febccdc029',1,'blaze::DMatTransExpr::dm_()'],['../d9/d12/classblaze_1_1DMatTransposer.html#a1141bc76b8b0fe88c14108404339f004',1,'blaze::DMatTransposer::dm_()']]],
+  ['dmatdmatmult_5fthreshold',['DMATDMATMULT_THRESHOLD',['../d1/d44/group__config.html#ga9c057dfdd2e4ed7b2d1bb8bb1fab3f67',1,'blaze']]],
+  ['dmatdvecmult_5fthreshold',['DMATDVECMULT_THRESHOLD',['../d1/d44/group__config.html#ga34deeb69f8938cd5512d0bd957b57387',1,'blaze']]],
+  ['dmattdmatmult_5fthreshold',['DMATTDMATMULT_THRESHOLD',['../d1/d44/group__config.html#ga1d4f6709c0385a808a44b911084873b2',1,'blaze']]],
+  ['dummy_5f',['dummy_',['../dd/db3/unionblaze_1_1MemoryPool_1_1FreeObject.html#a9aa5b7f1f1d68b0080fa1e780e31430a',1,'blaze::MemoryPool::FreeObject']]],
+  ['dv_5f',['dv_',['../dd/dc0/classblaze_1_1DVecAbsExpr.html#afdd33e335addc24c7a424132f3c45e11',1,'blaze::DVecAbsExpr::dv_()'],['../d2/d94/classblaze_1_1DVecEvalExpr.html#a302d611a1a92c6d6029f8aaf01ccb693',1,'blaze::DVecEvalExpr::dv_()'],['../d0/dc4/classblaze_1_1DVecSerialExpr.html#ac042f7e557b6ece37295f5cb38955ca7',1,'blaze::DVecSerialExpr::dv_()'],['../db/db6/classblaze_1_1DVecTransExpr.html#a2c6c4c41b3156e7608d71b7072a26909',1,'blaze::DVecTransExpr::dv_()'],['../d0/d30/classblaze_1_1DVecTransposer.html#ae106ac9669122ba9b59a6d941f5c6e20',1,'blaze::DVecTransposer::dv_()']]]
+];
